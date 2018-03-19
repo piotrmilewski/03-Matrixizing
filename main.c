@@ -75,6 +75,7 @@ int main() {
   
   
   draw_lines(edges, s, c);
-  display(s);
+  //display(s);
+  save_extension(s, "matrix.png");
   free_matrix( edges );
 }
